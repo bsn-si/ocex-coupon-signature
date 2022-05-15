@@ -1,0 +1,22 @@
+[package]
+name = "ocex-coupon-signature"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+schnorrkel = { version = "0.10.2", default-features = false, features = ["u64_backend", "getrandom"] }
+hex = { version = "0.4", default-features = false, features = ["alloc"] }
+getrandom = { version = "0.2", features = ["js"] }
+console_error_panic_hook = "0.1"
+wasm-bindgen = "0.2.80"
+js-sys = "0.3.57"
+
+[dev-dependencies]
+wasm-bindgen-test = "0.3.0"
+
+[profile.release]
+debug = true
+lto = true
