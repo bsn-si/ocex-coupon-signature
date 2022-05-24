@@ -1,0 +1,12 @@
+{
+  "name": "ocex-coupon-signature",
+  "version": "0.1.0",
+  "files": [
+    "ocex_coupon_signature_bg.wasm",
+    "ocex_coupon_signature.js",
+    "ocex_coupon_signature.d.ts"
+  ],
+  "module": "ocex_coupon_signature.js",
+  "types": "ocex_coupon_signature.d.ts",
+  "sideEffects": false
+}

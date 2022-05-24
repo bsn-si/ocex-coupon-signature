@@ -10,5 +10,11 @@ cargo install wasm-pack
 
 ### Build NodeJS package
 ```
-wasm-pack build --target nodejs --release
+wasm-pack build --target nodejs --out-dir pkg_node --release
+```
+
+### Build Web JS package
+
+```
+wasm-pack build --target nodejs --out-dir pkg_node --release
 ```
