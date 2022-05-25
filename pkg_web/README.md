@@ -16,5 +16,5 @@ wasm-pack build --target nodejs --out-dir pkg_node --release
 ### Build Web JS package
 
 ```
-wasm-pack build --target web --out-dir pkg_web --release
+wasm-pack build --target bundler --out-dir pkg_web --release
 ```
