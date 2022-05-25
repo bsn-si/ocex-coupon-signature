@@ -1,5 +1,5 @@
 {
-  "name": "ocex-coupon-signature",
+  "name": "ocex-coupon-signature-web",
   "version": "0.1.0",
   "files": [
     "ocex_coupon_signature_bg.wasm",
