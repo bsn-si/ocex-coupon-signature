@@ -1,8 +1,8 @@
 # Ocex Coupon Signature
-JS/Wasm library for make coupon activation signatures.
+JS/Wasm library for coupon activation signatures.
 
 ### How to build
-You need `wasm-pack` for start building
+You need `wasm-pack` to start building
 
 ``` bash
 cargo install wasm-pack
